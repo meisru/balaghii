@@ -1,0 +1,310 @@
+
+/* Add font files for Scheherazade New */
+@font-face {
+  font-family: 'Scheherazade New';
+  src: url('fonts/scheherazade-new.woff2') format('woff2'),
+       url('fonts/scheherazade-new.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-scheherazade-new: 'Scheherazade New', sans-serif;
+  --font-family-roboto: 'Roboto', sans-serif;
+  --font-family-inter: 'Inter', sans-serif;
+  --text-rgb-30-30-30: rgba(30, 30, 30, 1);
+  --text-rgb-117-117-117: rgba(117, 117, 117, 1);
+  --text-rgb-245-245-245: rgba(245, 245, 245, 1);
+}
+
+.text-rgb-30-30-30 {
+  color: var(--text-rgb-30-30-30);
+}
+
+.text-rgb-117-117-117 {
+  color: var(--text-rgb-117-117-117);
+}
+
+.text-rgb-245-245-245 {
+  color: var(--text-rgb-245-245-245);
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  opacity: 0.4000000059604645;
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 57px;
+  letter-spacing: -0.25px;
+  line-height: 64px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-30-30-30);
+}
+
+.text-5 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-inter);
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 120.00000476837158%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-117-117-117);
+}
+
+.text-content-title-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding: 0px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-9 {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-inter);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-30-30-30);
+}
+
+.input-8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px 16px 12px 16px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 100%;
+  min-width: 240px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(217, 217, 217, 1);
+  border-radius: 8px;
+}
+
+.input-field-7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.text-11 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-family: var(--font-family-inter);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-245-245-245);
+}
+
+.button-10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(44, 44, 44, 1);
+  border: 1px solid rgba(44, 44, 44, 1);
+  border-radius: 8px;
+}
+
+.form-newsletter-6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 28.166666666666668%;
+}
+
+.hero-newsletter-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 160px 24px 160px 24px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 83.33333333333334%;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.-13 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.frame-5-12 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(217, 217, 217, 0.44);
+}
+
+.frame-6-14 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(217, 217, 217, 0.43);
+}
+
+.ministry {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.node-16 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border-radius: 11px;
+  width: 100%;
+  height: auto;
+}
+
+.balagi {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.etmam {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 50;
+  height:50;
+  float: center;
+}
+
+.amana {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100;
+  height:100;
+  float: left;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.text-21 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+  border: 1px solid rgba(80, 101, 178, 1);
+  font-family: var(--font-family-inter);
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 100%;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-245-245-245);
+}
+
+.button-20 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  width: 18.40277777777778%;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5), 0px 4px 4px 0px rgba(0,0,0,0.5);
+  background-color: rgba(20, 106, 57, 1);
+  border: 1px solid rgba(87, 93, 93, 1);
+  border-radius: 8px;
+}
+
+.desktop-1-1 {
+@media (max-width: 1440px) {
+  .desktop-1-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop-1-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.5);
+  background-color: rgba(255, 255, 255, 1);
+}
